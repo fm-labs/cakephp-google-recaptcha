@@ -6,6 +6,9 @@ use Cake\Controller\Component;
 use Cake\Core\Configure;
 use Cake\Event\Event;
 
+/**
+ * @deprecated
+ */
 class RecaptchaComponent extends Component
 {
     public $components = ['Flash'];
